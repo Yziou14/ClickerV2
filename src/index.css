@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-black;
+  }
+}
+
+@layer components {
+  .menu-button {
+    @apply w-full bg-gray-800 hover:bg-gray-700 text-white p-4 rounded-lg flex items-center justify-between group transition-all duration-300;
+  }
+}
